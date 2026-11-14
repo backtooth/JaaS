@@ -1,0 +1,7 @@
+# Jouko-maskotti
+
+Luotu sisäänrakennetulla image_gen-työkalulla käyttäjän toimittamaa Joukon kuvaa ulkonäköreferenssinä käyttäen. Alkuperäistä valokuvaa ei tallenneta julkiseen repoon. Läpinäkyvä PNG: `jouko-mascot.png`.
+
+## Käytetty kehote
+
+Use case: logo-brand. Create one polished, original cartoon handyman mascot logo for the Finnish website JaaS, Jouko as a Service. Input image is a likeness reference for Jouko, not a background or edit target. Preserve recognizable features: slim long face, reddish brown mustache and long pointed reddish beard, black wraparound sunglasses, navy baseball cap. Friendly confident smile. Waist-up three-quarter portrait facing slightly left, both hands visible: one giving a thumbs up, the other holding a small adjustable wrench. Blue work overalls over a warm yellow work shirt, navy cap. Cheerful children's construction-cartoon mood like a friendly builder, with original character design based on this specific person. Bold clean dark navy outlines, simple rounded forms, flat warm yellow, workwear blue, cream, and rust palette, a few subtle cel-shading planes. Logo-quality illustration readable small. Centered isolated mascot, fully transparent background, no scenery, no lettering, no text, no wordmark, no extra characters, no border, no watermark. Square composition, generous clear margin, all hat and arms inside frame. Deliver a usable transparent PNG asset.

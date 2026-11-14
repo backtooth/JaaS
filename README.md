@@ -2,6 +2,8 @@
 
 Suomenkielinen varauskonsepti Joukon kuljetuspalvelulle ja yleisremonttiavulle. Staattinen HTML/CSS/JavaScript-sivusto GitHub Pagesiin. Ei build-riippuvuuksia.
 
+Ulkoasun Jouko-maskotti pohjautuu käyttäjän toimittamaan valokuvaan. Sarjakuvahahmoa käytetään etusivulla, logon yhteydessä ja faviconina. Työvaatesininen ja keltainen ilme on tiedostossa `mascot.css`. Kuvan tuotantotiedot ja kehote: `assets/mascot-prompt.md`.
+
 ## Kokeile paikallisesti
 
 Node.js 22 tai uudempi:
