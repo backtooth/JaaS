@@ -17,7 +17,7 @@ function show(){
   document.querySelectorAll('[data-step]').forEach(p=>p.hidden=Number(p.dataset.step)!==step);
   document.querySelectorAll('.steps li').forEach((li,i)=>{if(i===step)li.setAttribute('aria-current','step');else li.removeAttribute('aria-current');});
   $('back').hidden=step===0;$('next').hidden=step===3;$('next').innerHTML=['Jatka tietoihin <span>→</span>','Valitse ajankohta <span>→</span>','Tarkista luonnos <span>→</span>',''][step];
-  $('step-note').textContent=['Valitse ensin sinulle sopiva palvelu','Kerro työn tärkeimmät tiedot','Ajankohta on alustava toive','Luonnosta ei ole lähetetty'][step];
+  $('step-note').textContent=['Valitse Joukolle sopiva homma','Anna Joukolle joukko työn tietoja','Ehdota päivää Joukon kalenteriin','Joukon juoni koossa — luonnosta ei ole lähetetty'][step];
   $('error').textContent='';
   if(step===1){const transport=data().service==='transport';$('transport-fields').hidden=!transport;$('repair-fields').hidden=transport;if(transport){initMap();if(map)requestAnimationFrame(()=>map.invalidateSize());}}
   if(step===3)$('summary').textContent=bookingText(data());
